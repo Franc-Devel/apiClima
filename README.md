@@ -1,5 +1,11 @@
 # Weather Dashboard · Consulta de clima
 
+![Portada conceptual ilustrativa de apiClima; no es una captura real. Cifras, pantallas y módulos ficticios.](assets/covers/cover.png)
+
+> **Ilustración conceptual · No es una captura de una aplicación real.** Las cifras, métricas, pantallas y módulos del mockup son ficticios y no acreditan funcionalidades, resultados ni garantías. Temperaturas, ciudades y condiciones son ficticias. El pronóstico de siete días y los paneles mostrados son conceptuales y no acreditan funcionalidades implementadas ni datos meteorológicos actuales.
+>
+> **Concept artwork · Not an actual application screenshot.** Figures, metrics, screens and modules are fictional; they do not substantiate implemented features, measured results or security guarantees. Refer to the documentation below for the project’s actual scope.
+
 Aplicación de aprendizaje con React y Vite que busca una ciudad y muestra su temperatura actual, máxima y mínima del día y condición meteorológica. Desarrollada por Francisco Delgado como parte de su formación Full Stack.
 
 ## Qué demuestra
