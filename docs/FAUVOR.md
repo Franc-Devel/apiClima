@@ -29,3 +29,6 @@ Se revisaron los archivos de identidad y documentación. Las compilaciones React
 ## Autoría
 
 Proyecto presentado bajo la identidad FAUVOR y mantenido por Francisco Agustín Delgado. Se conservan el historial de Git, las licencias y las contribuciones acreditadas.
+
+### Búsqueda publicada
+La landing consulta geocodificación y pronóstico de Open-Meteo con el cliente `src/lib/weather-search.js`. No simula éxito para ciudades desconocidas; muestra errores y cancela consultas anteriores. El radar sigue siendo ilustrativo y no se inventa calidad del aire. Verificación: `node --test tests-weather.cjs`.

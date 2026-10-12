@@ -28,8 +28,9 @@ const App = () => {
     try {
       // 1. Buscamos las coordenadas de la ciudad usando la API de Geocoding gratuita
       const geoResponse = await fetch(
-        `https://geocoding-api.open-meteo.com/v1/search?name=${ciudadBuscada}&count=1&language=es`,
+        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(ciudadBuscada.trim())}&count=1&language=es`,
       );
+      if (!geoResponse.ok) throw new Error("Error del servicio de ciudades");
       const geoData = await geoResponse.json();
 
       // Validamos si la ciudad existe
@@ -46,6 +47,7 @@ const App = () => {
       const weatherResponse = await fetch(
         `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=auto`,
       );
+      if (!weatherResponse.ok) throw new Error("Error del servicio meteorológico");
       const data = await weatherResponse.json();
 
       const climaActual = getIconoClima(data.current.weather_code);
