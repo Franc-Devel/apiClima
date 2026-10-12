@@ -69,3 +69,12 @@ El tratamiento explícito de códigos HTTP, la cancelación de búsquedas anteri
 ## English
 
 Learning project built with React and Vite. It geocodes a city through Open-Meteo and displays current temperature, today's minimum and maximum, and weather conditions. Run the commands above to start the app. City lookup uses the first match; availability depends on external APIs. This repository demonstrates API integration and UI state management.
+
+## Identidad FAUVOR y documentación actual
+
+**FAUVOR Clima** forma parte del catálogo de seis productos FAUVOR. Consulta de clima.
+
+- [Identidad, ejecución, validación y límites](docs/FAUVOR.md)
+- [FAUVOR Flow: automatizaciones para negocios](https://github.com/Franc-Devel/system-flow)
+
+La portada es conceptual. Las capacidades reales y las diferencias respecto de las demos se detallan en la documentación vinculada.
