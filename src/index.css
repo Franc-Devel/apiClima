@@ -1,38 +1,60 @@
 body {
-  background-color: #0d1117;
-  color: #c9d1d9;
+  background-color: #F7F1E6;
+  color: #2B211A;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   min-height: 100vh;
 }
 
 .text-celeste {
-  color: #00d8ff !important;
+  color: #895522 !important;
 }
 
 .bunker-panel {
-  background-color: #161b22;
-  border: 1px solid #30363d;
+  background-color: #F7F1E6;
+  border: 1px solid #B18450;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 24px rgba(74,42,24,0.16);
 }
 
 /* Ajustes para que los inputs de Bootstrap combinen con el fondo oscuro */
 .form-control.bunker-input {
-  background-color: #0d1117;
-  border: 1px solid #30363d;
-  color: #c9d1d9;
+  background-color: #F7F1E6;
+  border: 1px solid #B18450;
+  color: #2B211A;
 }
 .form-control.bunker-input:focus {
-  background-color: #0d1117;
-  color: #fff;
-  border-color: #00d8ff;
-  box-shadow: 0 0 0 0.25rem rgba(0, 216, 255, 0.25);
+  background-color: #F7F1E6;
+  color: #2B211A;
+  border-color: #B18450;
+  box-shadow: 0 0 0 0.25rem rgba(74,42,24,0.16);
 }
 
 /* Corrección del color del texto de fondo (placeholder) */
 .form-control.bunker-input::placeholder {
-  color: #8b949e;
+  color: #786451;
   opacity: 1;
 }
+
+/* FAUVOR: ivory surfaces, bronze accents and readable controls. */
+:root { color-scheme: light; --bs-body-bg:#F7F1E6; --bs-body-color:#2B211A; --bs-primary:#895522; --bs-primary-rgb:137,85,34; --bs-border-color:#D6C0A3; }
+body { background-color:#F7F1E6; color:#2B211A; }
+h1,h2,h3 { font-family:Georgia,'Times New Roman',serif; }
+button,input,select,textarea { font-family:inherit; }
+input,select,textarea,.form-control,.form-select { color:#2B211A; background-color:#FFFAF2; border-color:#D6C0A3; }
+input::placeholder,textarea::placeholder { color:#786451; opacity:1; }
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible { outline:2px solid #895522; outline-offset:3px; }
+.btn-primary,.btn-cyan,.btn-card-primary { background:#895522; border-color:#895522; color:#FFFAF2; }
+.btn-primary:hover,.btn-cyan:hover { background:#4A2A18; border-color:#4A2A18; color:#FFFAF2; }
+.btn-primary,.btn-success,.btn-danger,.btn-warning { --bs-btn-color:#FFFAF2; }
+.text-white,.text-light { color:#2B211A!important; }
+.bg-dark { background-color:#EFE5D6!important; }
+.border-secondary { border-color:#D6C0A3!important; }
+.text-celeste,.text-info,.text-primary { color:#895522!important; }
+.swal2-popup { background:#FFFAF2!important; color:#2B211A!important; }
+.swal2-confirm { background:#895522!important; color:#FFFAF2!important; }
+
+.fauvor-nav-mark{object-fit:contain;vertical-align:middle;max-width:100%;margin-right:10px}.brand-badge img{object-fit:contain}.brand-badge{background:#EFE5D6;box-shadow:none;height:auto;padding:5px}
+
+:root{--bs-info:#895522;--bs-info-rgb:137,85,34;--bs-secondary-color:#786451;--bs-secondary-bg:#EFE5D6;--bs-tertiary-bg:#EFE5D6;--bs-emphasis-color:#2B211A;--bs-light-rgb:255,250,242;--bs-dark-rgb:239,229,214;--bs-primary-text-emphasis:#4A2A18;--bs-primary-bg-subtle:#EBDCC6;--bs-primary-border-subtle:#D6C0A3;}.text-muted{color:#786451!important}.btn-primary,.badge.bg-primary{color:#FFFAF2!important}.form-control:focus,.form-select:focus{background:#FFFAF2;color:#2B211A;border-color:#895522;box-shadow:0 0 0 .2rem rgba(169,111,53,.18)}.navbar-toggler{border-color:#A96F35;color:#2B211A}.navbar-toggler-icon{filter:none}.brand-badge,.brand-icon{background:#EFE5D6;color:#895522}

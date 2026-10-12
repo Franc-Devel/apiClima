@@ -89,7 +89,7 @@ const App = () => {
         className="bunker-panel w-100 text-center"
         style={{ maxWidth: "600px" }}
       >
-        <h1 className="text-celeste fw-bold mb-4">CLIMA</h1>
+        <h1 className="text-celeste fw-bold mb-4"><img className="fauvor-nav-mark" src={`${import.meta.env.BASE_URL}fauvor/symbol.png`} alt="FAUVOR" width="42" height="62" /> FAUVOR Clima</h1>
 
         <Buscador onBuscar={handleBuscar} />
 
