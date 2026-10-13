@@ -32,3 +32,6 @@ Proyecto presentado bajo la identidad FAUVOR y mantenido por Francisco Agustín 
 
 ### Búsqueda publicada
 La landing consulta geocodificación y pronóstico de Open-Meteo con el cliente `src/lib/weather-search.js`. No simula éxito para ciudades desconocidas; muestra errores y cancela consultas anteriores. El radar sigue siendo ilustrativo y no se inventa calidad del aire. Verificación: `node --test tests-weather.cjs`.
+
+## Identidad visual
+Cabecera de marca con escena vectorial específica del producto, marfil y bronce. Los fondos decorativos se mantienen separados de formularios, tablas y gráficos para preservar legibilidad. Adaptación a pantallas pequeñas sin animaciones intrusivas.
